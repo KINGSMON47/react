@@ -3,12 +3,12 @@ import react from 'react'
 // function Saeed() {
 //     return <h1>Smon Studio</h1>
 // }
- const Saeedsmon = props => {
+ const Saeedsmon = ({name, sefat}) => {
  return (
-
      <div>
-      <h1>Smon studio {props.name} </h1>
-      {props.children}
+      <h1>
+          Smon studio {name} {sefat}
+      </h1>
      </div>
  )
 }

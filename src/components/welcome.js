@@ -1,8 +1,10 @@
 import React , {Component} from "react";
 
 class Saeed extends Component {
+
     render() {
-        return (<h1 style={{color:"red"}}>Welcome to my website {this.props.name}</h1>
+    const {name , sefat} = this.props
+        return (<h1 style={{color:"red"}}>Welcome to my website {name} {sefat}</h1>
 
         )
     }

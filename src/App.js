@@ -4,11 +4,19 @@ import Saeedsmon from "./components/Greet";
 import Saeed from "./components/welcome";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import Functions from "./components/functions";
 
 function App() {
     return (
-        /*<Message />*/
-        <Counter />
+        <div>
+            <Functions />
+            {/*<Message />*/}
+            {/*<Saeedsmon name={'saeed'} sefat={'sexy'}/>*/}
+            {/*<Saeed name={'saeed'} sefat={'sexy'} />*/}
+            {/*<Counter />*/}
+
+        </div>
+
     )
 
 
